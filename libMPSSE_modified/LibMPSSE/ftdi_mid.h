@@ -116,7 +116,7 @@ extern FT_STATUS Mid_SetDeviceLoopbackState(FT_HANDLE handle,uint8 \
 extern FT_STATUS Mid_EmptyDeviceInputBuff(FT_HANDLE handle);
 FTDI_API FT_STATUS FT_WriteGPIO(FT_HANDLE handle, uint8 dir, uint8 value);
 FTDI_API FT_STATUS FT_ReadGPIO(FT_HANDLE handle,uint8 *value);
-FTDI_API FT_STATUS FT_ReadLowGPIO(FT_HANDLE handle,uint8 *value)
+FTDI_API FT_STATUS FT_ReadLowGPIO(FT_HANDLE handle,uint8 *value);
 extern FT_STATUS Mid_GetQueueStatus(FT_HANDLE handle, LPDWORD lpdwAmountInRxQueue);
 
 #endif /* FTDI_MID_H */
